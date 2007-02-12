@@ -1,7 +1,7 @@
 %define		_splash		Lila
 
 Summary:	KDE splash screen
-Summary(pl):	Ekran startowy KDE
+Summary(pl.UTF-8):   Ekran startowy KDE
 Name:		kde-splash-%{_splash}
 Version:	1.0
 Release:	1
@@ -20,9 +20,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Nice splash screen in shades of purple. For people who prefer mild
 colors on their desktop.
 
-%description -l pl
-£adny ekran startowy w odcieniach fioletu. Dla osÛb preferuj±cych
-≥agodne kolory na swoim pulpicie.
+%description -l pl.UTF-8
+≈Åadny ekran startowy w odcieniach fioletu. Dla os√≥b preferujƒÖcych
+≈Çagodne kolory na swoim pulpicie.
 
 %prep
 %setup -q -n %{_splash}
